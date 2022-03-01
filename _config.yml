@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Mrhanice's Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Mrhanice
+language: zh-CN
 timezone: ''
 
 # URL
@@ -68,6 +68,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  c++: C++
+  Java: Java
 tag_map:
 
 # Metadata elements
@@ -106,3 +108,20 @@ deploy:
   # 填上你自己的仓库名，注意后面有`.git`
   repository: git@github.com:mrhanice/mrhanice.github.io.git 
   branch: master
+
+# search
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 10000
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: false
+  total_time: false
+  exclude_codeblock: false
+  awl: 2
+  wpm: 300
+  suffix: "mins."
